@@ -1,4 +1,4 @@
-package com.example.flutix_app
+package com.example.movie_id
 
 import io.flutter.embedding.android.FlutterActivity
 

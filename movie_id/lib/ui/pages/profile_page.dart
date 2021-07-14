@@ -201,7 +201,7 @@ class _ProfilePageState extends State<ProfilePage> {
                             width: 10,
                           ),
                           Text(
-                            "Rate Flutix App",
+                            "Rate Movie ID",
                             style: blackTextFont.copyWith(fontSize: 16),
                           )
                         ],

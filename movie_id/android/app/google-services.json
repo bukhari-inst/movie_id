@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "671364799844",
-    "project_id": "flutix-app-68ebc",
-    "storage_bucket": "flutix-app-68ebc.appspot.com"
+    "project_number": "922739761752",
+    "project_id": "movie-id-da4a9",
+    "storage_bucket": "movie-id-da4a9.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:671364799844:android:b0de24a3aac8a17a6dee71",
+        "mobilesdk_app_id": "1:922739761752:android:bd1488f57564a73a76202d",
         "android_client_info": {
-          "package_name": "com.example.flutix_app"
+          "package_name": "com.example.movie_id"
         }
       },
       "oauth_client": [
         {
-          "client_id": "671364799844-tj91olij3gmi7394g3aar6v7i118bt9b.apps.googleusercontent.com",
+          "client_id": "922739761752-kl6dncv7is8brr2ujpvh2v68dq44fk7j.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBuATlxsY9QoCKAaGJFnbeIfwS3gPycrP4"
+          "current_key": "AIzaSyDbgPe5SZ9lelIo93FnhwqMMiZEpnCPdrc"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "671364799844-tj91olij3gmi7394g3aar6v7i118bt9b.apps.googleusercontent.com",
+              "client_id": "922739761752-kl6dncv7is8brr2ujpvh2v68dq44fk7j.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.flutix_app">
+    package="com.example.movie_id">
    <application
-        android:label="Movie ID"
+        android:label="movie_id"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
