@@ -92,9 +92,23 @@ class _SignInPageState extends State<SignInPage> {
                           style: greyTextFont.copyWith(
                               fontSize: 12, fontWeight: FontWeight.w400),
                         ),
-                        Text(
-                          "Get Now",
-                          style: purpleTextFont.copyWith(fontSize: 12),
+                        GestureDetector(
+                          onTap: () async {
+                            await AuthServices.resetPassword(
+                                emailController.text);
+
+                            Flushbar(
+                              duration: Duration(milliseconds: 2000),
+                              flushbarPosition: FlushbarPosition.TOP,
+                              backgroundColor: Color(0xFFFF5C83),
+                              message:
+                                  "The link to change your password has been sent to your email.",
+                            )..show(context);
+                          },
+                          child: Text(
+                            "Get Now",
+                            style: purpleTextFont.copyWith(fontSize: 12),
+                          ),
                         )
                       ],
                     ),

@@ -37,7 +37,8 @@ class _AccountConfirmationPageState extends State<AccountConfirmationPage> {
                           alignment: Alignment.centerLeft,
                           child: GestureDetector(
                             onTap: () {
-                              context.bloc<PageBloc>().add(GoToSplashPage());
+                              context.bloc<PageBloc>().add(
+                                  GoToPreferencePage(widget.registrationData));
                             },
                             child: Icon(Icons.arrow_back, color: Colors.black),
                           ),
