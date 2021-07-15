@@ -115,8 +115,10 @@ class _EditProfilePageState extends State<EditProfilePage> {
                       ),
                       AbsorbPointer(
                         child: TextField(
-                          controller:
-                              TextEditingController(text: widget.user.id),
+                          controller: TextEditingController(
+                              text: widget.user.id
+                                  .substring(0, 10)
+                                  .toUpperCase()),
                           style:
                               whiteNumberTextFont.copyWith(color: accentColor3),
                           decoration: InputDecoration(
