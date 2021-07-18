@@ -1,7 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.movie_id">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    
    <application
-        android:label="movie_id"
+        android:label="MovieID"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

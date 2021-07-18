@@ -404,6 +404,9 @@ class _CheckoutPageState extends State<CheckoutPage> {
                                               transaction));
                                     } else {
                                       // * Uang tidak cukup
+                                      context
+                                          .bloc<PageBloc>()
+                                          .add(GoToTopUpPage(GoToMainPage()));
                                     }
                                   },
                                 )
